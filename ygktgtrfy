@@ -1,0 +1,36 @@
+answer = input("hello soul... or shall i say, Liquick! are you wondering why you are in the soul world? -yes- or -no-")
+
+if answer.lower().strip() == "yes":
+
+    answer = input("ahh, so you want answers huh, well you will need to fight for the answers >:D muhahhaha | do you want to fight? -yes- -no-")
+    if answer == "yes":
+        answer = input("alright | what do you want to do? -right hook- or -left hit-?")
+
+        if answer == "right hook":
+            print("dang i was going to fight someone today but YOU HAD TO DIE! | that was bad for you, your arm broke when you hit the monster in the face, you fractured 36 bones and 12000 small bones, you die from bleeding, you LOSE!")
+        else:
+            print("ARHG, you hit me in the pelvis| you did 12ATK! |==================================================================================================          12ATK|")
+            answer = input("but its no good i still have 88hp, there is no way you can win. | Liquick? is that you? if that is you say the -secret word-")
+
+            if answer == "secret word":
+                print("oh, yes, it really is you my little one, well i see you are fighting. do you remember the ult i showed you? yes of course you do. just repeat after me, arlegromon pero GROPODOGAS KAS FRO DAA")
+                answer = input("WELL CHOOSE ONE FAST arlegromon pero GROPODOGAS KAS FRO DAA or dont kill him | -unknown word- or -spare-?")
+            else:
+                print("well its not you, so i might just destroy you | you get blasted into 7032 lumps of meat, YOU LOSE!")
+
+            if answer == "unknown word":
+                print("you did 50 hp points on the monster |================================================                        50ATK                            12ATK|")
+                answer = input("the monster is weak!, you should try to -CRIT-")
+            else:
+                print("why the hell would you spare me?!?! death is opon you small one | YOU LOSE!")
+
+            if answer == "CRIT":
+                print("you CRIT for tripple the attack damage! you did 36ATK |==                             36ATK                      50ATK                       12ATK|")
+                answer = input("okay now you only need to deal 2ATK, lets deal wit- MUHAHAHAHAHA, i have a secret ability in my sword, i will never die | liquick just -kill- him")
+            else:
+                print("you become a blob of gue from the laser the monster shot you with from his crystal obsidian sword. you are unable to move at all but you feel every thing he tuches you with | YOU LOSE!")
+
+            if answer == "kill":
+                print("YOU MISSED, he dodge'd your attack, but he dodge right into a pit full of spikes. he takes 100 000 000 ATK")
+                answer = input("you killed the beast, good jobb, but we are yet to be done with your journey Liquick")
+                
