@@ -1,3 +1,5 @@
+//Markus was here
+
 answer = input("hello soul... or shall i say, Liquick! are you wondering why you are in the soul world? -yes- or -no-")
 
 if answer.lower().strip() == "yes":
